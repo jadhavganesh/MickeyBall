@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/m1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Start"
+    tools:showIn="@layout/activity_start">
+
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="18dp"
+        android:background="@android:color/transparent"
+        android:elevation="0dp"
+        android:popupBackground="@android:color/background_light"
+        android:popupTheme="@android:color/background_light" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:clickable="true"
+        app:backgroundTint="@android:color/black"
+        app:elevation="0dp"
+        app:fabSize="normal"
+        app:srcCompat="@android:drawable/ic_menu_help"
+        tools:ignore="RelativeOverlap"
+        android:layout_below="@+id/spinner2"
+        android:layout_alignEnd="@+id/spinner2" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="casual"
+        android:text="SET TIME"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginEnd="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
