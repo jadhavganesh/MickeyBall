@@ -1,4 +1,5 @@
-#Android game application
+# Android game application
 
-It is an android game application.
-It has developed by using android studio.
+_It is an android game application.
+_It has developed by using android studio.
+_NICE PROJECT
